@@ -1,0 +1,62 @@
+Sure. Here's the raw text extracted from the PDF:
+
+---
+
+Kofi Arhin
+TEL: +44 7863793051
+EMAIL: [kofiarhin69@gmail.com](mailto:kofiarhin69@gmail.com)
+LinkedIn: [https://www.linkedin.com/in/joshua-obu-9b49b72b/](https://www.linkedin.com/in/joshua-obu-9b49b72b/)
+Github: [https://github.com/kofiarhin](https://github.com/kofiarhin)
+Codepen: [http://codepen.io/esco69/](http://codepen.io/esco69/)
+Youtube: [https://www.youtube.com/channel/UCKHAmydXRabltNm9hSoFzbA](https://www.youtube.com/channel/UCKHAmydXRabltNm9hSoFzbA)
+
+**SUMMARY OF QUALIFICATIONS AND EDUCATION**
+• University of Ghana - 2008
+(Bachelor of Arts in Computer Science & Economics)
+• Ghana Secondary Technical School – August 2003
+(Senior Secondary School Certificate Examination)
+
+**SKILL SET**
+• Client-Side Language: HTML, CSS, Javascript
+• Server-side Language: Node js
+• Framework/Library: React js, React Native
+• Database: MySQL, MongoDB, Firebase
+• Tools: SASS, LESS, Bootstrap
+• Version Control: Github, GitHub
+• Graphic Design: Adobe Xd, Adobe Photoshop, Adobe Illustrator
+
+**WORK EXPERIENCE**
+
+**Web Developer – Freelance (January 2015 – present)**
+• Translating designs to frontend/backend code, estimating time and cost, and determine developer requirements and specifications
+• Designing Custom UI/Ux applications
+• Writing maintainable, scalable, responsive and cross browser codes
+• Teaching and Mentoring Junior Developers
+
+**Technical Support Representative – Vodafone (March 2012 – December 2014)**
+• Delivered service and support to end-users using and operating automated call distribution phone software via remote connection or over the Internet
+• Interacted with customers on phone to provide and process information in response to inquiries, concerns and requests about products and services
+• Diagnosed and resolved technical hardware and software issues involving internet connectivity, email clients, IPTV, VOIP and more
+• Offered alternative solutions where appropriate with the objective of retaining customers’ and clients’ business
+• Followed up and made scheduled call backs to customers where necessary
+
+**Network Administrator – Benyark Engineering Ltd (September 2010 – December 2012)**
+• Installed and configured Window Server and network devices
+• Managed the network infrastructure by performing data backups and disaster recovery operations
+• Ensured availability of resources on the network, routine network administration and maintenance, User administration i.e. Setup and maintaining accounts
+• Diagnosed and resolved technical hardware and software issues involving internet connectivity, email clients, IPTV, VOIP and more
+• Provided technical support for users with varying IT knowledge and competence
+
+**IT Support Officer – Benyark Engineering Ltd (National Service) (August 2009 – August 2010)**
+• Monitored and implemented software programs and maintained or repaired all peripherals and removable storage devices
+• Authenticaticated user account (username and password)
+• Kept records of maintenance work and repairs
+• Trained users on new software packages and systems
+
+**REFERENCES**
+Mr Frederick Sedor – Supervisor, E-Services Ghana – 0209292719
+Mr Sandy Abrah – Client Account Senior Developer, Microsoft – +12068996475
+
+---
+
+Let me know if you need it cleaned up, formatted, or converted.

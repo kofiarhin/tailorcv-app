@@ -56,3 +56,28 @@ button {
     text-align: center;
   }
 }
+
+.form-wrapper {
+  width: 800px;
+  max-width: 100%;
+  margin: 0 auto;
+  input,
+  button,
+  textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  textarea {
+    min-height: 300px;
+    text-indent: 20px;
+    padding-top: 1rem;
+    font-size: 16px;
+  }
+
+  button {
+    padding: 1rem 0rem;
+    background-color: #00d395;
+  }
+}

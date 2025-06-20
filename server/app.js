@@ -1,6 +1,7 @@
 const express = require("express");
 const cors = require("cors");
 const app = express();
+const cvRoutes = require("./routes/cvRoutes");
 
 // setup middleware
 app.use(cors());
@@ -17,5 +18,7 @@ app.get("/api/users", (req, res) => {
     { name: "lebron james", email: "lebron@gmail.com" },
   ]);
 });
+
+app.use("/api/generate", cvRoutes);
 
 module.exports = app;

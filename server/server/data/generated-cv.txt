@@ -1,0 +1,49 @@
+Here is the rewritten CV tailored to the job description:
+
+**JOSHUA KENNETH OBU**
+
+TEL: +44 7863793051
+EMAIL: [kofiarhin69@gmail.com](mailto:kofiarhin69@gmail.com)
+LinkedIn: [https://www.linkedin.com/in/joshua-obu-9b49b72b/](https://www.linkedin.com/in/joshua-obu-9b49b72b/)
+
+**SUMMARY OF QUALIFICATIONS AND EDUCATION**
+
+* University of Ghana - 2008
+(Bachelor of Arts in Computer Science & Economics)
+* Ghana Secondary Technical School – August 2003
+(Senior Secondary School Certificate Examination)
+
+**SKILL SET**
+
+* System Administration: Windows, Linux
+* Scripting: Bash, PowerShell
+* Cloud Services: AWS, Azure, GCP
+* Networking Protocols: DNS, DHCP, TCP/IP, VPNs
+* Monitoring Tools: Nagios, Zabbix, Grafana
+* Server-side Language: Node js
+
+**WORK EXPERIENCE**
+
+**Freelance Web Developer (January 2015 - Present)**
+
+* Installed, configured, and maintained servers, networks, and system software
+* Monitored system performance and troubleshoot issues proactively
+* Managed user accounts, permissions, and access controls (similar to Active Directory and LDAP)
+
+**Technical Support Representative – Vodafone (March 2012 - December 2014)**
+
+* Troubleshot hardware and software issues, including internet connectivity, email clients, IPTV, VOIP
+* Provided technical support for users with varying IT knowledge and competence
+* Familiar with monitoring tools (phone)
+
+**Network Administrator – Benyark Engineering Ltd (September 2010 - December 2012)**
+
+* Installed, configured, and maintained network devices and Windows Servers
+* Managed the network infrastructure, performing data backups and disaster recovery operations
+* Diagnosed and resolved technical hardware and software issues
+* Familiar with network protocols and tools
+* Experienced with monitoring and maintenance of network resources
+
+**REFERENCE**
+
+Contact details of two professional references available upon request.

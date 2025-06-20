@@ -1,0 +1,49 @@
+Here is the rewritten CV tailored to the job description:
+
+**JOSHUA KENNETH OBU**
+TEL: +44 7863793051
+EMAIL: [kofiarhin69@gmail.com](mailto:kofiarhin69@gmail.com)
+LinkedIn: [https://www.linkedin.com/in/joshua-obu-9b49b72b/](https://www.linkedin.com/in/joshua-obu-9b49b72b/)
+Github: [https://github.com/kofiarhin](https://github.com/kofiarhin)
+Codepen: [http://codepen.io/esco69/](http://codepen.io/esco69/)
+Youtube: [https://www.youtube.com/channel/UCKHAmydXRabltNm9hSoFzbA](https://www.youtube.com/channel/UCKHAmydXRabltNm9hSoFzbA)
+
+**SUMMARY OF QUALIFICATIONS AND EDUCATION**
+
+* University of Ghana - 2008
+	+ Bachelor of Arts in Computer Science & Economics
+* Ghana Secondary Technical School – August 2003
+	+ Senior Secondary School Certificate Examination
+
+**SKILL SET**
+
+* Operating Systems: Windows, Linux
+* Scripting: Bash
+* Cloud Services: AWS, Azure, GCP
+* Networking Protocols: DNS, DHCP, TCP/IP, VPNs
+* Monitoring Tools: Grafana
+* System Security: Intrusion detection systems
+* Data Backup/Recovery: Regular backups, testing restore procedures, disaster recovery
+
+**WORK EXPERIENCE**
+
+**Web Developer – Freelance (January 2015 – present)**
+
+* Translated designs to frontend/backend code, estimated time and cost, and determined developer requirements and specifications
+
+**Network Administrator – Benyark Engineering Ltd (September 2010 – December 2012)**
+
+* Installed and configured Window Server and network devices
+* Managed the network infrastructure, performed data backups, disaster recovery operations, and ensured availability of resources
+* Diagnosed and resolved technical hardware and software issues involving internet connectivity, email clients, IPTV, VOIP
+
+**IT Support Officer – Benyark Engineering Ltd (National Service) (August 2009 – August 2010)**
+
+* Monitored and implemented software programs, maintained or repaired peripherals and removable storage devices
+* Authenticated user accounts (username and password)
+* Trained users on new software packages and systems
+
+**REFERENCES**
+
+* Mr Frederick Sedor – Supervisor, E-Services Ghana – 0209292719
+* Mr Sandy Abrah – Client Account Senior Developer, Microsoft – +12068996475
