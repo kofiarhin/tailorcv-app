@@ -5,7 +5,7 @@ export const createCv = async (jobDescription) => {
       headers: {
         "Content-Type": "application/json",
       },
-      body: JSON.stringify({ jobDescription }), // ✅ wrap in object
+      body: JSON.stringify({ jobDescription }),
     });
 
     if (!res.ok) {

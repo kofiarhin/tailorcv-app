@@ -1,84 +1,80 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Kofi Arhin's Resume</title>
-	<style>
-		body {
-			font-family: Arial, sans-serif;
-			margin: 20px;
-		}
-		
-		.section-header {
-			text-align: center;
-			margin-bottom: 10px;
-			font-weight: bold;
-			font-size: 16px;
-		}
-		
-		.skill-list {
-			list-style: none;
-			margin: 0;
-			padding: 0;
-			columns: 2;
-		}
-		
-		.skill-list li {
-			margin-bottom: 10px;
-		}
-		
-		.skill-list li::before {
-			content: "• ";
-			color: #666;
-		}
-		
-		.work-experience {
-			margin-bottom: 20px;
-		}
-		
-		.work-experience-detail {
-			margin-bottom: 10px;
-		}
-	</style>
+    <title>Kofi Arhin's Resume</title>
+    <style>
+        h1 {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .role {
+            font-size: 16px;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        .company {
+            font-size: 14px;
+            font-style: italic;
+            margin-bottom: 5px;
+        }
+        .dates {
+            font-size: 14px;
+            font-style: italic;
+            margin-bottom: 10px;
+        }
+        .description {
+            font-size: 14px;
+        }
+    </style>
 </head>
 <body>
-	<h1>Kofi Arhin</h1>
-	<p>TEL: +44 7863793051</p>
-	<p>EMAIL: <a href="mailto:kofiarhin69@gmail.com">kofiarhin69@gmail.com</a></p>
-	<p>LinkedIn: <a href="https://www.linkedin.com/in/joshua-obu-9b49b72b/">https://www.linkedin.com/in/joshua-obu-9b49b72b/</a></p>
-	<p>Github: <a href="https://github.com/kofiarhin">https://github.com/kofiarhin</a></p>
-	<p>Codepen: <a href="http://codepen.io/esco69/">http://codepen.io/esco69/</a></p>
-	<p>Youtube: <a href="https://www.youtube.com/channel/UCKHAmydXRabltNm9hSoFzbA">https://www.youtube.com/channel/UCKHAmydXRabltNm9hSoFzbA</a></p>
-	<h2>Summary of Qualifications and Education</h2>
-	<p>University of Ghana - 2008
-		(Bachelor of Arts in Computer Science & Economics)</p>
-	<p>Ghana Secondary Technical School – August 2003
-		(Senior Secondary School Certificate Examination)</p>
-	<h2>Skill Set</h2>
-	<ul class="skill-list">
-		<li>Client-Side Language: HTML, CSS, Javascript</li>
-		<li>Server-side Language: Node js</li>
-		<li_Framework/Library: React js, React Native</li>
-		<li>Database: MySQL, MongoDB, Firebase</li>
-		<li>Tools: SASS, LESS, Bootstrap</li>
-		<li>Version Control: Github, GitHub</li>
-		<li>Graphic Design: Adobe Xd, Adobe Photoshop, Adobe Illustrator</li>
-	</ul>
-	<h2>Work Experience</h2>
-	<h3>Web Developer – Freelance (January 2015 – present)</h3>
-	<p>Translated designs to frontend/backend code, estimated time and cost, and determined developer requirements and specifications.</p>
-	<p>Designed Custom UI/Ux applications.</p>
-	<p>Wrote maintainable, scalable, responsive and cross browser codes.</p>
-	<p>Teaching and Mentoring Junior Developers.</p>
-	<h3>Technical Support Representative – Vodafone (March 2012 – December 2014)</h3>
-	<p>Delivered service and support to end-users using and operating automated call distribution phone software via remote connection or over the Internet.</p>
-	<p>Interacted with customers on phone to provide and process information in response to inquiries, concerns and requests about products and services.</p>
-	<p>Diagnosed and resolved technical hardware and software issues involving internet connectivity, email clients, IPTV, VOIP and more.</p>
-	<p>Offered alternative solutions where appropriate with the objective of retaining customers’ and clients’ business.</p>
-	<p>Followed up and made scheduled call backs to customers where necessary.</p>
-	<h3>Network Administrator – Benyark Engineering Ltd (September 2010 – December 2012)</h3>
-	<p>Installed and configured Window Server and network devices.</p>
-	<p>Managed the network infrastructure by performing data backups and disaster recovery operations.</p>
-	<p>Ensured availability of resources on the network, routine network administration and maintenance, User administration i.e. Setup and maintaining accounts.</p>
-	<p>Diagnosed and resolved technical hardware and software issues involving internet connectivity, email clients, IPTV, VOIP and more.</p>
-	<p>Provided technical support for users with varying IT knowledge and competence.</p>
-	<h3>IT Support Officer – Benyark Engineering Ltd (National Service
+    <h1>Kofi Arhin</h1>
+    <p>TEL: +44 7863793051</p>
+    <p>EMAIL: <a href="mailto:kofiarhin69@gmail.com">kofiarhin69@gmail.com</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/joshua-obu-9b49b72b/">https://www.linkedin.com/in/joshua-obu-9b49b72b/</a></p>
+    <p>Github: <a href="https://github.com/kofiarhin">https://github.com/kofiarhin</a></p>
+    <p>Codepen: <a href="http://codepen.io/esco69/">http://codepen.io/esco69/</a></p>
+    <p>Youtube: <a href="https://www.youtube.com/channel/UCKHAmydXRabltNm9hSoFzbA">https://www.youtube.com/channel/UCKHAmydXRabltNm9hSoFzbA</a></p>
+    <h2>SUMMARY OF QUALIFICATIONS AND EDUCATION</h2>
+    <ul>
+        <li>University of Ghana - 2008 (Bachelor of Arts in Computer Science & Economics)</li>
+        <li>Ghana Secondary Technical School – August 2003 (Senior Secondary School Certificate Examination)</li>
+    </ul>
+    <h2>SKILL SET</h2>
+    <ul>
+        <li>Client-Side Language: HTML, CSS, Javascript</li>
+        <li>Server-side Language: Node js</li>
+        <li.Framework/Library: React js, React Native</li>
+        <li>Database: MySQL, MongoDB, Firebase</li>
+        <li>Tools: SASS, LESS, Bootstrap</li>
+        <li>Version Control: Github, GitHub</li>
+        <li>Graphic Design: Adobe Xd, Adobe Photoshop, Adobe Illustrator</li>
+    </ul>
+    <h2>WORK EXPERIENCE</h2>
+    <section class="section">
+        <h3>Web Developer – Freelance (January 2015 – present)</h3>
+        <h4 class="role">Web Developer</h4>
+        <p class="company">Freelance</p>
+        <p class="dates">January 2015 – present</p>
+        <p class="description">Translating designs to frontend/backend code, estimating time and cost, and determine developer requirements and specifications</p>
+        <p class="description">Designing Custom UI/Ux applications</p>
+        <p class="description">Writing maintainable, scalable, responsive and cross browser codes</p>
+        <p class="description">Teaching and Mentoring Junior Developers</p>
+    </section>
+    <section class="section">
+        <h3>Technical Support Representative – Vodafone (March 2012 – December 2014)</h3>
+        <h4 class="role">Technical Support Representative</h4>
+        <p class="company">Vodafone</p>
+        <p class="dates">March 2012 – December 2014</p>
+        <p class="description">Delivered service and support to end-users using and operating automated call distribution phone software via remote connection or over the Internet</p>
+        <p class="description">Interacted with customers on phone to provide and process information in response to inquiries, concerns and requests about products and services</p>
+        <p class="description">Diagnosed and resolved technical hardware and software issues involving internet connectivity, email clients, IPTV, VOIP and more</p>
+        <p class="description">Offered alternative solutions where appropriate with the objective of retaining customers’ and clients’ business</p>
+        <p class="description">Followed up and made scheduled call backs to customers where necessary</p>
+    </section>
+    <section class="section">
+        <h3>Network Administrator – Beny

@@ -3,36 +3,64 @@ import { useState } from "react";
 import useCvMutation from "../../hooks/useCvMutation";
 
 const UploadComponent = () => {
-  const [jobDescription, setJobDescription] = useState("");
-  const { data, mutate, isLoading } = useCvMutation();
+  const [jobDescription, setJobDescription] = useState("Job Overview
+We’re looking for a skilled System Administrator to maintain, upgrade, and manage our software, hardware, and networks. You’ll be responsible for ensuring our IT infrastructure runs smoothly, securely, and efficiently across all business operations.
+Key Responsibilities
+Install, configure, and maintain servers, networks, and system software (Windows/Linux)
+Monitor system performance and troubleshoot issues proactively
+Apply OS patches and upgrades on a regular basis, and upgrade administrative tools and utilities
+Manage user accounts, permissions, and access controls (Active Directory, LDAP)
+Perform regular backups, test restore procedures, and manage disaster recovery
+Implement and enforce IT security policies, firewall rules, and antivirus measures
+Set up, configure, and manage virtualization environments (VMware, Hyper-V, etc.)
+Maintain documentation for systems, procedures, and configurations
+Support development, testing, and deployment environments
+Assist with on-call rotation and respond to critical system outages
+Required Skills & Qualifications
+Proven experience as a System Administrator, Network Administrator, or similar role
+Strong knowledge of system security (e.g., intrusion detection systems) and data backup/recovery
+Hands-on experience with Windows/Linux environments, scripting (Bash, PowerShell), and cloud services (AWS, Azure, GCP)
+Familiarity with networking protocols and tools (DNS, DHCP, TCP/IP, VPNs)
+Experience with monitoring tools (e.g., Nagios, Zabbix, Grafana)
+Strong problem-solving and communication skills
+Preferred Qualifications
+Bachelor’s degree in Computer Science, Information Technology, or related field
+Relevant certifications (CompTIA Server+, Microsoft MCSA/MCSE, Cisco CCNA, Red Hat Certified SysAdmin)
+Let me know if you want it trimmed further or adapted to a specific company style.");
+  const { data, mutate, isLoading, isError, error } = useCvMutation();
 
-  console.log(data);
+  console.log("ddddddd", isLoading);
 
   const handleSubmit = (e) => {
     e.preventDefault();
     if (!jobDescription.trim()) return;
-    mutate(jobDescription);
+    mutate(jobDescription); // 🔥 you're sending just the string — this matches your current hook
   };
 
-  if (isLoading) {
-    return <h1 className="heading">Loading...</h1>;
-  }
-
   return (
-    <div>
+    <div className="upload-container">
       <h2 className="heading center">Paste Job Description</h2>
+
       <div className="form-wrapper">
         <form onSubmit={handleSubmit}>
           <textarea
-            onChange={(e) => setJobDescription(e.target.value)}
             value={jobDescription}
+            onChange={(e) => setJobDescription(e.target.value)}
             placeholder="Paste job description here..."
+            rows={10}
           />
-          <button>Submit</button>
+          <button type="submit" disabled={isLoading}>
+            {isLoading ? "Generating..." : "Submit"}
+          </button>
         </form>
       </div>
 
-      {/* Render HTML response safely */}
+      {isError && (
+        <p className="error">
+          ❌ Error: {error.message || "Something went wrong"}
+        </p>
+      )}
+
       {data && (
         <div
           className="cv-preview"
