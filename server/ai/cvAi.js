@@ -19,9 +19,13 @@ Job Description:
 ${jobDescription}
 
 CV Context:
-${context}
-`;
-  const prompt = `Rewrite the CV using this data: ${context}, tailored exactly to this job description: ${jobDescription}. Return only the final CV content. No introductions, no explanations, no extra text.`;
+${const prompt = `Use the CV context below to generate a customized, professional CV tailored specifically to the job description. Return only valid, semantic, well-spaced HTML. Wrap the entire output in a single <div id="cv"> container. Use clear HTML sectioning: headings (<h2>) for sections like Experience, Skills, and Education, and paragraphs or lists for details. Do not include any CSS, inline styles, class attributes, or fancy layouts. Keep the structure simple and minimal. Do not invent or modify any information not provided in the context. No markdown. No extra text. No explanations.
+
+Job Description:
+${jobDescription}
+
+CV Context:
+${context}`;
 
   try {
     const response = await groq.chat.completions.create({
