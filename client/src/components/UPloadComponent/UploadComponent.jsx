@@ -1,12 +1,16 @@
 import "./uploadComponent.styles.scss";
 import { useState } from "react";
 import useCvMutation from "../../hooks/useCvMutation";
+import Spinner from "../Spinner/Spinner";
 
 const UploadComponent = () => {
   const [jobDescription, setJobDescription] = useState("");
-  const { data, mutate, isLoading, isError, error } = useCvMutation();
+  const { data, mutate, isLoading, isPending, isError, error } =
+    useCvMutation();
 
-  console.log("ddddddd", isLoading);
+  if (isPending) {
+    return <Spinner />;
+  }
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -40,6 +44,7 @@ const UploadComponent = () => {
 
       {data && (
         <div
+          id="result"
           className="cv-preview"
           dangerouslySetInnerHTML={{ __html: data.message }}
         />
