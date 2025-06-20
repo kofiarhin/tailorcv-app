@@ -1,10 +1,14 @@
 import { useEffect } from "react";
 
 const App = () => {
+  const env = import.meta.env.DEV;
   const baseUrl = import.meta.env.VITE_SERVER_BASE_URL;
+
+  const url = env ? "/api/users" : `${baseUrl}/api/users`;
+  console.log(url);
   useEffect(() => {
     const getUsers = async () => {
-      const res = await fetch(`${baseUrl}/api/users`);
+      const res = await fetch(url);
       const data = await res.json();
       if (!res.ok) {
         console.log("error fetching data", data);
