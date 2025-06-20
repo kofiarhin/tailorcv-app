@@ -1,6 +1,6 @@
 const { Groq } = require("groq-sdk");
 
-// Validate environment variable
+// Fail-fast if API key is missing
 if (!process.env.GROQ_API_KEY) {
   throw new Error("Missing GROQ_API_KEY environment variable");
 }
@@ -9,31 +9,29 @@ const groq = new Groq({
   apiKey: process.env.GROQ_API_KEY,
 });
 
-// Configurable model
-const MODEL_NAME = process.env.GROQ_MODEL || "llama3-8b-8192";
+const MODEL_NAME = process.env.GROQ_MODEL?.trim() || "llama3-8b-8192";
 
 const alpha = async () => {
-  const prompt = `tell me a joke`;
+  const prompt = "Tell me a joke.";
 
   try {
     const response = await groq.chat.completions.create({
       model: MODEL_NAME,
       messages: [
-        {
-          role: "user",
-          content: prompt,
-        },
+        { role: "system", content: "You are a witty assistant." },
+        { role: "user", content: prompt },
       ],
-      temperature: 1,
-      max_tokens: 1024,
+      temperature: 0.8,
+      max_tokens: 256,
       top_p: 1,
       stream: false,
     });
 
-    return response.choices[0]?.message?.content || "";
+    const message = response.choices?.[0]?.message?.content;
+    return message || "No response received.";
   } catch (err) {
     console.error("Groq API Error:", err.response?.data || err);
-    throw new Error(`callGroqAPI failed: ${err.message}`);
+    throw new Error(`Groq API call failed: ${err.message}`);
   }
 };
 
