@@ -6,6 +6,11 @@ export default defineConfig({
   plugins: [react()],
   server: {
     port: 4000,
+    test: {
+      include: ["client/**/*.test.{js,ts,jsx,tsx}"],
+      environment: "jsdom",
+      globals: true,
+    },
     proxy: {
       "/api": {
         target: "http://localhost:5000",
