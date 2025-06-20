@@ -1,6 +1,10 @@
 export const createCv = async (jobDescription) => {
+  const baseUrl = import.meta.env.VITE_SERVER_BASE_URL;
   try {
-    const res = await fetch("http://localhost:5000/api/generate", {
+    const url = import.meta.env.DEV
+      ? "/api/generate"
+      : `${baseUrl}/api/generate`;
+    const res = await fetch(url, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
