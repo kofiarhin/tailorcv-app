@@ -9,11 +9,10 @@ const groq = new Groq({
   apiKey: process.env.GROQ_API_KEY,
 });
 
-// Configurable model
 const MODEL_NAME = process.env.GROQ_MODEL?.trim() || "llama3-8b-8192";
 
 const alpha = async ({ context = "", jobDescription = "" }) => {
-  const prompt = `Use the CV context below to generate a customized, professional CV tailored specifically to the job description. Return only valid, semantic, well-spaced HTML. Wrap the entire output in a single <div id="cv"> container. Use clear HTML sectioning: headings (<h2>) for sections like Experience, Skills, and Education, and paragraphs or lists for details. Do not include any CSS, inline styles, class attributes, or fancy layouts. Keep the structure simple and minimal. Do not invent or modify any information not provided in the context. No markdown. No extra text. No explanations.
+  const prompt = `Use the CV context below to generate a customized, professional CV tailored specifically to the job description. Return only valid, semantic, well-spaced HTML. Wrap the entire output in a single <div id="cv"> container. Use clear HTML sectioning: headings (<h2>) for sections like Experience, Skills, and Education, and paragraphs or lists for details. Use this order: Name, Summary, Experience, Skills, Education, Certifications, Contact. Ensure the output uses only standard HTML5 tags. Do not include any CSS, inline styles, class attributes, or fancy layouts. Keep the structure simple and minimal. Do not invent or modify any information not provided in the context. Avoid empty tags or placeholder content. Do not repeat section headers or job titles unnecessarily. Wrap the final HTML in <!-- CV_START --> and <!-- CV_END --> comments. No markdown. No extra text. No explanations.
 
 Job Description:
 ${jobDescription}
