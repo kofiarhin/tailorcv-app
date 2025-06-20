@@ -4,7 +4,7 @@ const App = () => {
   const baseUrl = import.meta.env.VITE_SERVER_BASE_URL;
   useEffect(() => {
     const getUsers = async () => {
-      const res = await fetch(baseUrl);
+      const res = await fetch(`${baseUrl}/api/users`);
       const data = await res.json();
       if (!res.ok) {
         console.log("error fetching data", data);
