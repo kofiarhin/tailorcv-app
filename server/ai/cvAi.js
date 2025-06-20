@@ -19,7 +19,7 @@ Job Description:
 ${jobDescription}
 
 CV Context:
-${const prompt = `Use the CV context below to generate a customized, professional CV tailored specifically to the job description. Return only valid, semantic, well-spaced HTML. Wrap the entire output in a single <div id="cv"> container. Use clear HTML sectioning: headings (<h2>) for sections like Experience, Skills, and Education, and paragraphs or lists for details. Do not include any CSS, inline styles, class attributes, or fancy layouts. Keep the structure simple and minimal. Do not invent or modify any information not provided in the context. No markdown. No extra text. No explanations.
+const prompt = `Use the CV context below to generate a customized, professional CV tailored specifically to the job description. Return only valid, semantic, well-spaced HTML. Wrap the entire output in a single <div id="cv"> container. Use clear HTML sectioning: headings (<h2>) for sections like Experience, Skills, and Education, and paragraphs or lists for details. Do not include any CSS, inline styles, class attributes, or fancy layouts. Keep the structure simple and minimal. Do not invent or modify any information not provided in the context. No markdown. No extra text. No explanations.
 
 Job Description:
 ${jobDescription}
