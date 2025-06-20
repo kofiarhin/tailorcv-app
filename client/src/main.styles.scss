@@ -9,6 +9,8 @@ body {
   font-family: "Inter", sans-serif;
   padding-top: 2rem;
   min-height: 100vh;
+  background-color: black;
+  color: white;
 }
 
 h1,
@@ -19,6 +21,7 @@ h5,
 p {
   margin: 0;
   padding: 0;
+  color: white;
 }
 
 input {
@@ -44,8 +47,8 @@ button {
 
 // typography
 .heading {
-  font-size: 2rem;
-  margin-bottom: 1rem;
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
   &.center {
     text-align: center;
   }
