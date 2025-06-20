@@ -4,10 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest --watchAll",
     "server": "nodemon --env-file=.env server/server.js",
     "client": "npm run dev --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "jest": {
+    "testMatch": [
+      "**/server/**/*.test.[jt]s?(x)"
+    ]
   },
   "keywords": [],
   "author": "",
@@ -19,6 +24,7 @@
   },
   "devDependencies": {
     "concurrently": "^9.1.2",
-    "jest": "^30.0.2"
+    "jest": "^30.0.2",
+    "supertest": "^7.1.1"
   }
 }
